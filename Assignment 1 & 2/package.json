@@ -1,0 +1,35 @@
+{
+  "name": "react-assignment",
+  "version": "1.0.0",
+  "description": "React Assignment",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YogiKrishna7/React-Assignment.git"
+  },
+  "keywords": [
+    "React",
+    "Assignment",
+    "2"
+  ],
+  "author": "Yogendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YogiKrishna7/React-Assignment/issues"
+  },
+  "homepage": "https://github.com/YogiKrishna7/React-Assignment#readme",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "serve": "http-server dist",
+    "qrcode": "qrcode-terminal http://<your-local-ip>:8080",
+    "clean": "parcel clean"
+  }
+}
